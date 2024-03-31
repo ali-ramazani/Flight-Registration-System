@@ -9,7 +9,7 @@ def main():
     f.allocate_seat("12A", "Ali Ramazani")
     f.allocate_seat("1B", "Zaki Ayoubi")
     pp(f._seating)
-    f.make_boarding_cards(console_card_printer)
+    f.make_boarding_cards(console_card_printer)   
 
 if __name__ == "__main__":
     main()
